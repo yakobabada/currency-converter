@@ -36,4 +36,5 @@ Currency converter
 # Without docker
     cd symfony/
     composer install
+    bin/phpunit
     bin/console app:convert-currency-for-orders 1=EUR 2=GBP
