@@ -32,3 +32,8 @@ Currency converter
 # Execution
 
     bin/console app:convert-currency-for-orders 1=EUR 2=GBP
+    
+# Without docker
+    cd symfony/
+    composer install
+    bin/console app:convert-currency-for-orders 1=EUR 2=GBP
