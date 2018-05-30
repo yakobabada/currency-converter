@@ -24,6 +24,7 @@ RUN apk add --update \
     php7-tokenizer \
     php7-session \
     php7-simplexml \
+    php7.0-zip \
     make \
     curl
 

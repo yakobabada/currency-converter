@@ -1,7 +1,7 @@
 Currency converter
 ==================
 
-* this application is written in symfony 4
+* This application is written in symfony 4
 
 
 # Requirements
@@ -13,4 +13,22 @@ Currency converter
 
     Symfony 4.0
 
+# Download
+
+    git clone https://github.com/yakobabada/shop.git
+
+
 # Installation
+
+    cd shop/
+    docker-compose up -d
+    docker exec -it shop_php_1 sh
+    composer install
+
+# Run test
+
+    bin/phpunit
+
+# Execution
+
+    bin/console app:convert-currency-for-orders 1=EUR 2=GBP
